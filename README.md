@@ -9,7 +9,7 @@ rest api skeleton README.md
 1. restful 하지 않은, post method 위주로 api를 구성합니다.
 2. request와 response는 DTO 클래스안에 묶어서 관리 합니다.
 ---
-##Build & Run
+Build & Run
 mvn -DskipTests=true clean install
 docker build -t jigulsw/restapi .
 docker run -e ENV=test -p 80:8883 jigulsw/restapi
